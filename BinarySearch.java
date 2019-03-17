@@ -25,7 +25,7 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
     
     BinaryNode(Integer element, BinaryNode left, BinaryNode right)
     {
-      this.rootElement = element; leftNode = left; rightNode = rightl
+      this.rootElement = element; leftNode = left; rightNode = right;
     
     }
   
