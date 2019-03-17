@@ -48,6 +48,8 @@ public class BinaryCreateTest
          }
          if (i == 99)
          {checker = false;}
+      
+        ++i;
         
         }
     }
