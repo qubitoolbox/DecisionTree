@@ -18,7 +18,7 @@ public class BinaryCreateTest
     Integer class_label_y = 100;
     sctr.insert(root_)
       
-    boolean checker = true;
+    boolean checker = false;
     for (int i = 0; i < 100; i++)
     {
       while (!checker)
@@ -45,11 +45,12 @@ public class BinaryCreateTest
           sctr.insert(class_label_y + 1);
          }else
           sctr.insert(class_label_y - 1);
-         }
-         if (i == 99)
-         {checker = false;}
-      
-        ++i;
+        
+          if (i==99)
+          {checker = true;}
+        
+          i += 1;
+        }
         
         }
     }
