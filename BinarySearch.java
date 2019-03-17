@@ -42,6 +42,23 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
       root= null;
     
     }
+    
+    public boolean isEmpty()
+    {
+      return root == null;
+    }
+    
+    public void insert(Integer x)
+    {
+      root = inser(x, root);
+    
+    
+    }
+    
+    public void remove(Integer edge)
+      
+      root = remove(edge, root);
+    }
   
   
   }
