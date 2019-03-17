@@ -25,7 +25,7 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
     
     BinaryNode(Integer element, BinaryNode left, BinaryNode right)
     {
-      this.rootElement = element; leftNode = left; rightNode = right;
+      rootElement = element; leftNode = left; rightNode = right;
     
     }
     
@@ -65,7 +65,7 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
       if (edge==null) 
           return new BinaryNode(edge, null, null);
         
-      int compareResult = x.compareTo(edge.element);
+      int compareResult = edge.compareTo(leaf.rootElement);
         
       if(compareResult < 0)
           t.left = insert(edge, leaf.left);
@@ -73,7 +73,7 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
           t.right = insert(edge, leaf.right);
       else
           ; //duplicate do nothing
-      return t;
+      return leaf;
     
     }
     
