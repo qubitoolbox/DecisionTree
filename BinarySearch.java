@@ -76,6 +76,20 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
       return t;
     
     }
+    
+    private void printTree(BinaryNode t)
+    {
+      if(t != null)
+      {
+        System.out.println("root" + t.element + " ");
+          printTree(t.left);
+        System.out.print("left leaf" + t.element + " ");
+          printTree(t.right);
+        System.out.println("right leaf"+ t.element + " ");
+      
+      
+      }
+    }
   
   
   }
