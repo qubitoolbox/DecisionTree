@@ -17,7 +17,11 @@ public class BinaryCreateTest
     Integer class_label_n = 0;
     Integer class_label_y = 100;
     sctr.insert(root_)
-
+      
+    boolean checker = true;
+    for (int i = 0; i < 100; i++)
+    {}
+    
 
   }
 
