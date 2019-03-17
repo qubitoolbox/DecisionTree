@@ -28,6 +28,20 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
       this.rootElement = element; leftNode = left; rightNode = right;
     
     }
+    
+    public BinaryNode root;
+    
+    public BinarySearchTree()
+    {
+      root = null;
+    }
+    
+    public void makeEmpty()
+    {
+    
+      root= null;
+    
+    }
   
   
   }
