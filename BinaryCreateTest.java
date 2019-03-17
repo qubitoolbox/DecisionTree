@@ -20,7 +20,37 @@ public class BinaryCreateTest
       
     boolean checker = true;
     for (int i = 0; i < 100; i++)
-    {}
+    {
+      while (!checker)
+      {
+        System.out.println("Still printing" + "i is equal to " + i);
+        if(i % 100 == 0)
+        {
+          sctr.insert(income_low + 3);
+        } else
+          sctr.insert(income_low - 1);  
+        
+        if(i % 100 == 0)
+        {
+          sctr.insert(student_yes + 1);
+        }else
+          sctr.insert(student_yes - 1);
+        if(i % 100 == 0)
+        {
+          sctr.insert(credit_excellent + 1);
+        }else
+          sctr.insert(credit_excellent - 1);  
+        if(i % 100 == 0)
+        {
+          sctr.insert(class_label_y + 1);
+         }else
+          sctr.insert(class_label_y - 1);
+         }
+         if (i == 99)
+         {checker = false;}
+        
+        }
+    }
     
 
   }
