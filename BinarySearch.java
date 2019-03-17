@@ -12,7 +12,7 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
     /*
     */
     */
-    public Integer elem;
+    public Integer rootElement;
     public BinaryNode leftNode;
     public BinaryNode rightNode;
     
