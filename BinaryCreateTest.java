@@ -19,10 +19,13 @@ public class BinaryCreateTest
     sctr.insert(root_)
     //while loop stopper
     boolean checker = false;
+    //iterate up to 100 times, although
+    //values can be set randomly.
     for (int i = 0; i < 100; i++)
     {
       while (!checker)
       {
+        //print message only to know that app is running
         System.out.println("Still printing " + " 'i' is equal to " + i);
         if(i % 100 == 0)
         {
