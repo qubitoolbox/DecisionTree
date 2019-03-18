@@ -27,6 +27,8 @@ public class BinaryCreateTest
       {
         //print message only to know that app is running
         System.out.println("Still printing " + " 'i' is equal to " + i);
+        //for even values, set nodes to 0
+        //otherwise set nodes to 1
         if(i % 100 == 0)
         {
           sctr.insert(income_low - 1);
