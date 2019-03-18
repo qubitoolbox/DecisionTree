@@ -50,7 +50,8 @@ public class BinaryCreateTest
           sctr.insert(class_label_y - 1);
          }else
           sctr.insert(class_label_y + 1);
-        
+          //when iterations reach 99, program will stop
+          //value is custom
           if (i==99)
           {checker = true;}
         
@@ -59,8 +60,6 @@ public class BinaryCreateTest
         
         }
     }
-    
-
   }
 
 
