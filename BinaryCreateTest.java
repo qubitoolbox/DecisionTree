@@ -7,7 +7,7 @@ public class BinaryCreateTest
     BinarySearch bsearch = new BinarySearchTree();
     //Although not random, nodes can be based off this data
     Integer root_ = 21; //resembling age
-    Integer income_high = 5;
+    Integer income_high = 7;
     Integer income_medium = 3;
     Integer income_low = 0;   
     Integer student_yes = 0;
