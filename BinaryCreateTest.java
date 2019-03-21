@@ -8,8 +8,8 @@ public class BinaryCreateTest
     //Although not random, nodes can be based off this data
     Integer root_ = 21; //resembling age
     Integer income_high = 7;
-    Integer income_medium = 3;
-    Integer income_low = 0;   
+    Integer income_medium = 5;
+    Integer income_low = 1;   
     Integer student_yes = 0;
     Integer student_no = 1;
     Integer credit_fair = 0;
