@@ -5,6 +5,7 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
 {
   public static class BinaryNode
   {
+    //create the root and initial nodes.
     public Integer rootElement;
     public BinaryNode leftNode;
     public BinaryNode rightNode;
