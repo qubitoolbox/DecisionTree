@@ -5,13 +5,6 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
 {
   public static class BinaryNode
   {
-  
-    /*
-    /*
-    /*
-    /*
-    */
-    */
     public Integer rootElement;
     public BinaryNode leftNode;
     public BinaryNode rightNode;
