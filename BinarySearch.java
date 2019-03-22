@@ -10,7 +10,8 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
     public BinaryNode leftNode;
     public BinaryNode rightNode;
     
-    
+    // initially left and right leaf are set to null
+    //until a value is set.
     BinaryNode(Integer rootElement)
     {
       this(rootElement, null, null);
