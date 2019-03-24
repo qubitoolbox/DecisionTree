@@ -65,6 +65,35 @@ public class BinaryCreateTest
                 
                 
           sctr.insert(root_);
+         
+         for (int i = 0; i <= tuple_size;) {
+                    
+                    
+                    //test with four inputs
+                    if (tuple_size == 4)
+                    {
+                        String name = GetData.getString("What is the A leaf");
+                        sctr.insert(name); 
+                        i+=1;
+                        String age = GetData.getString("What is the B leaf");
+                        sctr.insert(age);
+                        i+=2;
+                        String married = GetData.getString("What is the C leaf");
+                        sctr.insert(married);
+                        i+=3;
+                        String money = GetData.getString("What is the D leaf");
+                        sctr.insert(money);
+                        i+= 4;
+                    }
+                    else;
+                }
+                sctr.insert(student_yes);
+                sctr.insert(credit_fair);
+                sctr.insert(credit_excellent);
+                sctr.insert(class_label_n);
+                sctr.insert(class_label_y);
+                done = true;
+            }
        }
 
 }
