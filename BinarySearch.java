@@ -6,32 +6,45 @@ import javax.swing.JTextArea;
 
 public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
 {
-  public static class BinaryNode
-  {
-    //create the root and initial nodes.
-    public Integer rootElement;
-    public BinaryNode leftNode;
-    public BinaryNode rightNode;
+  
     
-    // initially left and right leaf are set to null
-    //until a value is set.
-    BinaryNode(Integer rootElement)
+    public static class BinaryNode 
     {
-      this(rootElement, null, null);
+        
+        public String element; //The Data in the node
+        public BinaryNode left; //right child
+        public BinaryNode right; // left child
+        
+        
+    BinaryNode(String theElement)
+    {
+    
+    
+        this(theElement, null, null);
     
     }
     
-    BinaryNode(Integer element, BinaryNode left, BinaryNode right)
+    
+    
+    BinaryNode(String element, BinaryNode left, BinaryNode right )
     {
-      rootElement = element; leftNode = left; rightNode = right;
+    
+        this.element = element; this.left = left; this.right = right;
+        
     
     }
-    
+
+    }
+    //variable containing the parent value of every child
     public BinaryNode root;
     
+    //root is first initialized as null value
     public BinarySearchTree()
     {
-      root = null;
+    
+        root = null;
+    
+    
     }
     
     public void makeEmpty()
