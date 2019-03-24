@@ -56,9 +56,15 @@ public class BinaryCreateTest
         sctr.insert(class_label_y);
         done = true;
     
-
-    }
-  }
-
+       }
+       else if(s == 1){
+                
+          root_ = GetData.getString("What is the name of root");                
+          Integer tuple_size = GetData.getInt("What is the size of \n"
+                        + " the DecisionTree?");
+                
+                
+          sctr.insert(root_);
+       }
 
 }
