@@ -42,6 +42,19 @@ public class BinaryCreateTest
         credit_excellent = "credit_excellent";
         class_label_n = "No";
         class_label_y = "Yes";
+        sctr.insert(root_);
+        sctr.insert(income_high);
+        sctr.insert(income_medium);
+        sctr.insert(income_low);
+        sctr.insert(student_yes);
+        sctr.insert(student_yes);
+        sctr.insert(student_no);
+        sctr.insert(student_no);
+        sctr.insert(credit_fair);
+        sctr.insert(credit_excellent);
+        sctr.insert(class_label_n);
+        sctr.insert(class_label_y);
+        done = true;
     
 
     }
