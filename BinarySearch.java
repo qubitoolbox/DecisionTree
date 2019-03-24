@@ -71,20 +71,20 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
       root = remove(edge, root);
     }
     
-    public BinaryNode insert(Integer edge, BinaryNode leaf)
+    public BinaryNode insert(String x, BinaryNode t)
     {
-      if (edge==null) 
-          return new BinaryNode(edge, null, null);
+        if (t==null) 
+            return new BinaryNode(x, null, null);
         
-      int compareResult = edge.compareTo(leaf.rootElement);
+        int compareResult = x.compareTo(t.element);
         
-      if(compareResult < 0)
-          t.left = insert(edge, leaf.left);
-      else if(compareResult > 0)
-          t.right = insert(edge, leaf.right);
-      else
-          ; //duplicate do nothing
-      return leaf;
+        if(compareResult < 0)
+            t.left = insert(x, t.left);
+        else if(compareResult > 0)
+            t.right = insert(x, t.right);
+        else
+            ; //duplicate do nothing
+        return t;
     
     }
     
