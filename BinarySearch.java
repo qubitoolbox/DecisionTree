@@ -101,5 +101,20 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
       
       }
     }
+    public void show(String t){
+    
+      String node = t;
+      String str = "";
+      while(node!=null)
+      {
+      
+        str += node;// + " - 
+       }
+        JTextArea text = new JTextArea(str, 20,30);
+        JScrollPane pane = new JScrollPane(text);
+        JOptionPane.showMessageDialog(null, pane, "", JOptionPane.INFORMATION_MESSAGE);
+        
+    }
+
   }
 }
