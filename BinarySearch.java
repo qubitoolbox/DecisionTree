@@ -71,6 +71,22 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
       root = remove(edge, root);
     }
     
+  public String contains(String x, BinaryNode t)
+  {
+    
+    if (t == null) 
+      return "t";
+        //x.toCharArray();
+    int compareResult = x.compareTo(t.element);
+        
+    if(compareResult < 0)
+      return contains(x, t.left);
+     else if(compareResult > 0)
+       return contains(x, t.right);
+     else
+       return "t.right"; //match
+    }
+    
     public BinaryNode insert(String x, BinaryNode t)
     {
         if (t==null) 
