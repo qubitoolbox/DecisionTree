@@ -59,6 +59,13 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
       return root == null;
     }
     
+    public String contains(String x)
+    {
+    
+      return contains(x,root);
+    
+    }
+    
     public void insert(Integer x)
     {
       root = inser(x, root);
