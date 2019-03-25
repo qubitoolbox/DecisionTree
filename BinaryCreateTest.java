@@ -85,11 +85,11 @@ public class BinaryCreateTest
              String money = GetData.getString("What is the D leaf");
              sctr.insert(money);
              i+= 4;
-                    }
-                    else;
-                }
-                sctr.insert(student_yes);
-                sctr.insert(credit_fair);
+            }
+            else;
+           }
+           sctr.insert(student_yes);
+           sctr.insert(credit_fair);
                 sctr.insert(credit_excellent);
                 sctr.insert(class_label_n);
                 sctr.insert(class_label_y);
