@@ -97,7 +97,8 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
         //System.out.println(t.element);
         printTree(t.right);
         //System.out.println("\t" + t.element);
-      }
+      }else
+        System.out.println("Empty Tree");
     }
     public void show(String t)
     {
