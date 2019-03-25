@@ -97,24 +97,19 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
         System.out.print("left leaf" + t.element + " ");
           printTree(t.right);
         System.out.println("right leaf"+ t.element + " ");
-      
-      
       }
     }
-    public void show(String t){
-    
+    public void show(String t)
+    {
       String node = t;
       String str = "";
       while(node!=null)
       {
-      
         str += node;// + " - 
-       }
-        JTextArea text = new JTextArea(str, 20,30);
-        JScrollPane pane = new JScrollPane(text);
-        JOptionPane.showMessageDialog(null, pane, "", JOptionPane.INFORMATION_MESSAGE);
-        
+      }
+      JTextArea text = new JTextArea(str, 20,30);
+      JScrollPane pane = new JScrollPane(text);
+      JOptionPane.showMessageDialog(null, pane, "", JOptionPane.INFORMATION_MESSAGE)  
     }
-
   }
 }
