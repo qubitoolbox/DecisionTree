@@ -74,9 +74,9 @@ public class BinaryCreateTest
            if (tuple_size == 4)
            {
              String name = GetData.getString("What is the A leaf");
-                        sctr.insert(name); 
-                        i+=1;
-                        String age = GetData.getString("What is the B leaf");
+             sctr.insert(name); 
+             i+=1;
+             String age = GetData.getString("What is the B leaf");
                         sctr.insert(age);
                         i+=2;
                         String married = GetData.getString("What is the C leaf");
