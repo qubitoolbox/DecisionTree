@@ -61,7 +61,8 @@ public class BinaryCreateTest
         sctr.insert(class_label_y);
         done = true;
        }
-       else if(s == 1){
+       else if(s == 1)
+       {
                 
          root_ = GetData.getString("What is the name of root");                
          Integer tuple_size = GetData.getInt("What is the size of \n"
@@ -90,17 +91,17 @@ public class BinaryCreateTest
            }
            sctr.insert(student_yes);
            sctr.insert(credit_fair);
-                sctr.insert(credit_excellent);
-                sctr.insert(class_label_n);
-                sctr.insert(class_label_y);
-                done = true;
-            }
+           sctr.insert(credit_excellent);
+           sctr.insert(class_label_n);
+           sctr.insert(class_label_y);
+           done = true;
+           }
        }
-        while (!done);
-          System.out.println(sctr.contains(root_, sctr.root));
-          if(sctr.root != null) {
-            System.out.println(sctr.findMax(sctr.root.left));
-              System.out.println(sctr.root.element + " ");
+       while (!done);
+       System.out.println(sctr.contains(root_, sctr.root));
+       if(sctr.root != null) {
+         System.out.println(sctr.findMax(sctr.root.left));
+           System.out.println(sctr.root.element + " ");
             System.out.println(sctr.findMax(sctr.root.right));
               System.out.println(sctr.printTree(sctr.));
           }
