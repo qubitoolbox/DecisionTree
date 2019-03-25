@@ -77,9 +77,9 @@ public class BinaryCreateTest
              sctr.insert(name); 
              i+=1;
              String age = GetData.getString("What is the B leaf");
-                        sctr.insert(age);
-                        i+=2;
-                        String married = GetData.getString("What is the C leaf");
+             sctr.insert(age);
+             i+=2;
+             String married = GetData.getString("What is the C leaf");
                         sctr.insert(married);
                         i+=3;
                         String money = GetData.getString("What is the D leaf");
