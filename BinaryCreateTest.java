@@ -70,12 +70,10 @@ public class BinaryCreateTest
          sctr.insert(root_);
          
          for (int i = 0; i <= tuple_size;) {
-                    
-                    
-                    //test with four inputs
-                    if (tuple_size == 4)
-                    {
-                        String name = GetData.getString("What is the A leaf");
+           //test with four inputs
+           if (tuple_size == 4)
+           {
+             String name = GetData.getString("What is the A leaf");
                         sctr.insert(name); 
                         i+=1;
                         String age = GetData.getString("What is the B leaf");
