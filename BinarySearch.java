@@ -92,11 +92,10 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
     {
       if(t != null)
       {
-        System.out.println("root" + t.element + " ");
-          printTree(t.left);
-        System.out.print("left leaf" + t.element + " ");
-          printTree(t.right);
-        System.out.println("right leaf"+ t.element + " ");
+        printTree(t.left);;
+        System.out.println(t.element);
+        printTree(t.right);
+        System.out.println("\t" + t.element);
       }
     }
     public void show(String t)
