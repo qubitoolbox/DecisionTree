@@ -23,18 +23,15 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
       this.element = element; this.left = left; this.right = right;
     }
 
-    }
-    //variable containing the parent value of every child
-    public BinaryNode root;
+  }
+  //variable containing the parent value of every child
+  public BinaryNode root;
     
-    //root is first initialized as null value
-    public BinarySearchTree()
-    {
-    
-        root = null;
-    
-    
-    }
+  //root is first initialized as null value
+  public BinarySearchTree()
+  {
+    root = null;
+  }
     
     public void makeEmpty()
     {
