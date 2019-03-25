@@ -11,7 +11,6 @@ public class BinaryCreateTest
   {
     //create object from BinarySearch class
     BinarySearch bsearch = new BinarySearchTree();
-    
     String root_ = null;
     String student_yes = "student_yes";
     String credit_excellent = "credit_excellent";
@@ -33,10 +32,10 @@ public class BinaryCreateTest
                + ""
                + ""
                + "");
-        if(s==3)
-          done = true;
-        else if(s==2){
-            
+      if(s==3)
+        done = true;
+      else if(s==2)
+      {      
         root_ = "Age";
         //root_.toString(0b1);
         String income_high = "high";
@@ -61,16 +60,14 @@ public class BinaryCreateTest
         sctr.insert(class_label_n);
         sctr.insert(class_label_y);
         done = true;
-    
        }
        else if(s == 1){
                 
-          root_ = GetData.getString("What is the name of root");                
-          Integer tuple_size = GetData.getInt("What is the size of \n"
+         root_ = GetData.getString("What is the name of root");                
+         Integer tuple_size = GetData.getInt("What is the size of \n"
                         + " the DecisionTree?");
                 
-                
-          sctr.insert(root_);
+         sctr.insert(root_);
          
          for (int i = 0; i <= tuple_size;) {
                     
