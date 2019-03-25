@@ -32,32 +32,25 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
   {
     root = null;
   }
+  
+  public void makeEmpty()
+  {
+    root= null;
+  }
+  public boolean isEmpty()
+  {
+    return root == null;
+  }
     
-    public void makeEmpty()
-    {
+  public String contains(String x)
+  {
+    return contains(x,root);
+  }
     
-      root= null;
-    
-    }
-    
-    public boolean isEmpty()
-    {
-      return root == null;
-    }
-    
-    public String contains(String x)
-    {
-    
-      return contains(x,root);
-    
-    }
-    
-    public void insert(Integer x)
-    {
-      root = inser(x, root);
-    
-    
-    }
+  public void insert(Integer x)
+  {
+    root = inser(x, root);
+  }
     
     public void remove(Integer edge)
       
