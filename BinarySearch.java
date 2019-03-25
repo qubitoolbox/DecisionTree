@@ -6,32 +6,21 @@ import javax.swing.JTextArea;
 
 public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
 {
-  
-    
-    public static class BinaryNode 
-    {
-        
-        public String element; //The Data in the node
-        public BinaryNode left; //right child
-        public BinaryNode right; // left child
+  public static class BinaryNode 
+  {
+    public String element; //The Data in the node
+    public BinaryNode left; //right child
+    public BinaryNode right; // left child
         
         
     BinaryNode(String theElement)
     {
-    
-    
-        this(theElement, null, null);
-    
+      this(theElement, null, null);
     }
-    
-    
     
     BinaryNode(String element, BinaryNode left, BinaryNode right )
     {
-    
-        this.element = element; this.left = left; this.right = right;
-        
-    
+      this.element = element; this.left = left; this.right = right;
     }
 
     }
