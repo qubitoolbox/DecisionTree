@@ -99,13 +99,6 @@ public class BinaryCreateTest
        }
        while (!done);
        System.out.println(sctr.contains(root_, sctr.root));
-       if(sctr.root != null) 
-       {
-         System.out.println(sctr.findMax(sctr.root.left));
-           System.out.println(sctr.root.element + " ");
-         System.out.println(sctr.findMax(sctr.root.right));
-           System.out.println(sctr.printTree(sctr.));
-       }
-       System.out.println("The Root element is: " + sctr.root.element); 
+        
   }
 }
