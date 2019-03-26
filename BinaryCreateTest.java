@@ -98,7 +98,6 @@ public class BinaryCreateTest
            }
        }
        while (!done);
-       System.out.println(sctr.contains(root_, sctr.root));
         
   }
 }
