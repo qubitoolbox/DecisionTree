@@ -1,8 +1,10 @@
 import javax.swing.JOptionPane;
 
-public class GetData {
+public class GetData 
+{
     
-    public static double getDouble(String s){
+    public static double getDouble(String s)
+    {
         
         return Double.parseDouble(getString(s));
     }
