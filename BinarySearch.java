@@ -12,7 +12,6 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
     public BinaryNode left; //right child
     public BinaryNode right; // left child
         
-        
     BinaryNode(String theElement)
     {
       this(theElement, null, null);
@@ -87,7 +86,6 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
      return t;
     
     }
-    
     private void printTree(BinaryNode t)
     {
       if(t != null)
