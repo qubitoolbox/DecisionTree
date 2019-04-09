@@ -61,7 +61,6 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
     
     if (t == null) 
       return "t";
-      //x.toCharArray();
       int compareResult = x.compareTo(t.element);
         
     if(compareResult < 0)
