@@ -70,7 +70,6 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
     else
       return "t.right"; //match
    }
-    
    public BinaryNode insert(String x, BinaryNode t)
    {
      if (t==null) 
