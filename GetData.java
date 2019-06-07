@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-
+//wrapper class to parse values.
 public class GetData 
 {
     
